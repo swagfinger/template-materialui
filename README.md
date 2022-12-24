@@ -63,3 +63,75 @@ const MuiTypography = () => {
   );
 };
 ```
+
+## Button && Button Group
+
+3 variants of button
+
+- text
+- contained
+- outlined
+
+- you can add href attribute to text variant eg. <Button variant='text' href="http://google.com">Text</Button> which changes the button to <a> tag
+- use themeing to style buttons eg. color='primary'
+- can control size of buttons size='small', it needs to be in a <Stack display="block">
+- can add icons to buttons mui.com/components/icons - must pick your icons, import the icon then:
+- startIcon={<SendIcon/>} endIcon={<SendIcon/>} defines position icon will appear inside button (before/after) text
+- add buttons without text by importing {IconButton} from '@mui/material';
+- button props: disableRipple, disableElevation
+- button group is a wrapper element that allows you to group buttons into a set, the 'variant's should be on the ButtonGroup.
+- you can change the orientation to 'vertical' or 'horizontal' using 'orientation' prop
+- should add aria label to ButtonGroup eg. aria-label="alignment button group"
+
+```tsx
+import { Button } from "@mui/material";
+
+// 3 variants
+...
+<Button variant='text'>Text</Button>
+<Button variant='contained'>Contained</Button>
+<Button variant='outlined'>Outlined</Button>
+
+<Button variant='contained' color='primary'>Primary</Button>
+<Button variant='contained' color='secondary'>Secondary</Button>
+<Button variant='contained' color='error'>Error</Button>
+<Button variant='contained' color='warning'>Warning</Button>
+<Button variant='contained' color='info'>Info</Button>
+<Button variant='contained' color='success'>Success</Button>
+
+<ButtonGroup variant="contained">
+<Button>Left</Button>
+<Button>Center</Button>
+<Button>Right</Button>
+</ButtonGroup>
+
+```
+
+## Spacing
+
+- wrap groups of components in <Stack> elements to control spacing
+
+- import Stack
+- use <Stack spacing={2} direction='row'>
+
+```tsx
+import { Stack } from "@mui/material";
+```
+
+```css
+.App {
+  padding: 4rem;
+}
+```
+
+## Theming
+
+mui.com/customization/default-theme
+
+## Icons
+
+mui.com/components/icons
+
+```
+npm i @mui/icons-material
+```
