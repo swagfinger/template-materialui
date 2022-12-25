@@ -82,6 +82,11 @@ const MuiTypography = () => {
 - button group is a wrapper element that allows you to group buttons into a set, the 'variant's should be on the ButtonGroup.
 - you can change the orientation to 'vertical' or 'horizontal' using 'orientation' prop
 - should add aria label to ButtonGroup eg. aria-label="alignment button group"
+- ButtonGroup: add onChange to ToggleButtonGroup
+- ButtonGroup: value={} comes from state <string[]> which is updated by ToggleButtonGroup's onChange() event
+- you can set orientage on ButtonGroup
+- adding 'exclusive' prop allows single selection at a time - state stores now <string | null> with default (null)
+- the onChange() handler type is updated: updatedFormats:string | null
 
 ```tsx
 import { Button } from "@mui/material";
