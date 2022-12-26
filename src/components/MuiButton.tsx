@@ -116,7 +116,7 @@ const MuiButton:React.FC<Props> = () => {
 
     <Typography variant="h5">toggle button</Typography>
     <Stack direction="row" spacing={2}>
-      <ToggleButtonGroup onChange={(_event, updatedFormats)=>handleFormatChange(_event, updatedFormats, 0)} aria-label="text formatting" value={formats[0]} size="small" color="success" exclusive>
+      <ToggleButtonGroup onChange={(_event, updatedFormats)=>handleFormatChange(_event, updatedFormats, 0)} aria-label="text formatting" value={formats[0]} size="small" color="success">
         <ToggleButton value="bold"><FormatBoldIcon/></ToggleButton>
         <ToggleButton value="italic"><FormatItalicIcon/></ToggleButton>
         <ToggleButton value="underlined"><FormatUnderlinedIcon/></ToggleButton>

@@ -1,32 +1,35 @@
-import React from 'react';
-import { CopyBlock,dracula } from "react-code-blocks";
-import './App.css';
-import MuiButton from './components/MuiButton';
-import MuiTypography from './components/MuiTypography';
+import React from "react";
+import { CopyBlock, dracula } from "react-code-blocks";
+import "./App.css";
+import MuiButton from "./components/MuiButton";
+import MuiTextField from "./components/MuiTextfiled";
+import MuiTypography from "./components/MuiTypography";
 
 function App() {
   return (
-    <div className="App">
+    <div className='App'>
       <h1>MATERIAL UI</h1>
       <h2>Installation</h2>
       <p>documentation</p>
       <CopyBlock
-        text={'https://mui.com/'}
+        text={"https://mui.com/"}
         theme={dracula}
-        language="html"
+        language='html'
         showLineNumbers={false}
       />
       <p>install Material UI</p>
       <CopyBlock
-        text={'npm i @mui/material @emotion/react @emotion/styled'}
+        text={"npm i @mui/material @emotion/react @emotion/styled"}
         theme={dracula}
-        language="shell"
+        language='shell'
         showLineNumbers={false}
       />
       <h2>01. Typography</h2>
-      <MuiTypography/>
+      <MuiTypography />
       <h2>02. Buttons</h2>
-      <MuiButton/>
+      <MuiButton />
+      <h2>03. TextField</h2>
+      <MuiTextField />
     </div>
   );
 }
