@@ -176,7 +176,15 @@ npm i @mui/icons-material
 
 - 2 dimentional and responsive layout
 - grid uses flexbox under the hood
+- 5 breakpoints each corresponding to certain device width
 - grid has 12 columns
+- grid has 2 variations
+  - parent - <Grid container>
+  - children - <Grid item>
+- xs (mobile), sm (tablet), md (desktop), lg, xl (larger monitors)
+- assign integer values to each breakpoint to indication how many of 12 columns to occupy
+- spacing={2},
+- rowSpacing={2}, columnSpacing={2} (when children of Stack component - alignment is fine)
 
 ## Paper
 
