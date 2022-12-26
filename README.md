@@ -189,5 +189,6 @@ npm i @mui/icons-material
 ## Paper
 
 - used for background (white), slight border, shadow
+- Card component uses the paper component
 
 ## Card
