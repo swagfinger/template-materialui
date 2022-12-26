@@ -1,9 +1,12 @@
 import React from "react";
 import { CopyBlock, dracula } from "react-code-blocks";
+import { Typography, Stack } from "@mui/material";
 import "./App.css";
-import MuiButton from "./components/MuiButton";
-import MuiTextField from "./components/MuiTextfiled";
-import MuiTypography from "./components/MuiTypography";
+import { MuiButton } from "./components/MuiButton";
+import { MuiTextField } from "./components/MuiTextfiled";
+import { MuiTypography } from "./components/MuiTypography";
+import { MuiSelect } from "./components/MuiSelect";
+import { MuiMultiSelect } from "./components/MuiMultiSelect";
 
 function App() {
   return (
@@ -30,6 +33,13 @@ function App() {
       <MuiButton />
       <h2>03. TextField</h2>
       <MuiTextField />
+      <h2>04. Select</h2>
+      <Stack direction='column' spacing={2}>
+        <Typography variant='h5'>Select</Typography>
+        <MuiSelect />
+        <Typography variant='h5'>MutliSelect</Typography>
+        <MuiMultiSelect />
+      </Stack>
     </div>
   );
 }

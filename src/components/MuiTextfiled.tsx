@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Stack, TextField, InputAdornment } from "@mui/material";
+type MuiTextFieldProps = {};
 
-const MuiTextField = () => {
+export const MuiTextField: React.FC<MuiTextFieldProps> = () => {
   const [value, setValue] = useState("");
 
   return (
