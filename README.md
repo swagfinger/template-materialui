@@ -159,11 +159,15 @@ npm i @mui/icons-material
 
 ## Box
 
-box allows 'sx' property which you can add styles without naming the styles
+- wrapper component with access to theme - for most of css utility needs
+- box component accepts 'component' prop to use another tag than 'div'
+- box allows 'sx' property which has access to the theme
+- add styles without naming the styles
+- properties you can apply: http://mui.com/system/properties
 
 ## Stack
 
-useful for layout in 1 dimension
+useful for managing layout in 1 dimension - vertical or horizontal
 
 ## Grid
 

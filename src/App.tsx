@@ -11,6 +11,7 @@ import { MuiRadioButton } from "./components/MuiRadioButton";
 import { MuiCheckbox } from "./components/MuiCheckbox";
 import { MuiSwitch } from "./components/MuiSwitch";
 import { MuiCard } from "./components/MuiCard";
+import { MuiLayout } from "./components/MuiLayout";
 
 function App() {
   return (
@@ -75,6 +76,11 @@ function App() {
       <Stack direction='column' spacing={2}>
         <h2>08. Card</h2>
         <MuiCard />
+      </Stack>
+
+      <Stack direction='column' spacing={2}>
+        <h2>09. Layout</h2>
+        <MuiLayout />
       </Stack>
     </div>
   );
