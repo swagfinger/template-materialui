@@ -63,17 +63,17 @@ function App() {
       </Stack>
 
       <Stack direction='column' spacing={2}>
-        <h2>05. Checkbox</h2>
+        <h2>06. Checkbox</h2>
         <MuiCheckbox />
       </Stack>
 
       <Stack direction='column' spacing={2}>
-        <h2>06. Switch</h2>
+        <h2>07. Switch</h2>
         <MuiSwitch />
       </Stack>
 
       <Stack direction='column' spacing={2}>
-        <h2>07. Card</h2>
+        <h2>08. Card</h2>
         <MuiCard />
       </Stack>
     </div>
