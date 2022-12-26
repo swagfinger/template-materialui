@@ -152,3 +152,27 @@ npm i @mui/icons-material
 ## Checkbox
 
 ## Switch
+
+## Rating
+
+## Autocomplete
+
+## Box
+
+box allows 'sx' property which you can add styles without naming the styles
+
+## Stack
+
+useful for layout in 1 dimension
+
+## Grid
+
+- 2 dimentional and responsive layout
+- grid uses flexbox under the hood
+- grid has 12 columns
+
+## Paper
+
+- used for background (white), slight border, shadow
+
+## Card
