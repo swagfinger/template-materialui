@@ -167,7 +167,10 @@ npm i @mui/icons-material
 
 ## Stack
 
-useful for managing layout in 1 dimension - vertical or horizontal
+- useful for managing layout in 1 dimension - vertical or horizontal
+- direction - column (default), row, row-reverse, column-reverse
+- spacing - 1 unit default is 16px
+- import Divider to add divider eg. ```<Stack divider={<Divider orientation='vertical' flexItem />}></Stack>`
 
 ## Grid
 
