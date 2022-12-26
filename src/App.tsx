@@ -9,6 +9,7 @@ import { MuiSelect } from "./components/MuiSelect";
 import { MuiMultiSelect } from "./components/MuiMultiSelect";
 import { MuiRadioButton } from "./components/MuiRadioButton";
 import { MuiCheckbox } from "./components/MuiCheckbox";
+import { MuiSwitch } from "./components/MuiSwitch";
 
 function App() {
   return (
@@ -63,6 +64,11 @@ function App() {
       <Stack direction='column' spacing={2}>
         <h2>05. Checkbox</h2>
         <MuiCheckbox />
+      </Stack>
+
+      <Stack direction='column' spacing={2}>
+        <h2>06. Switch</h2>
+        <MuiSwitch />
       </Stack>
     </div>
   );

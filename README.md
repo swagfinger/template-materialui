@@ -148,3 +148,7 @@ npm i @mui/icons-material
 ## Select
 
 ## RadioButton
+
+## Checkbox
+
+## Switch
