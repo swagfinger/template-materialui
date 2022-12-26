@@ -8,6 +8,7 @@ import { MuiTypography } from "./components/MuiTypography";
 import { MuiSelect } from "./components/MuiSelect";
 import { MuiMultiSelect } from "./components/MuiMultiSelect";
 import { MuiRadioButton } from "./components/MuiRadioButton";
+import { MuiCheckbox } from "./components/MuiCheckbox";
 
 function App() {
   return (
@@ -55,8 +56,13 @@ function App() {
       </Stack>
 
       <Stack direction='column' spacing={2}>
-        <h2>05. RadioButton</h2>
+        <h2>05. Radio Button</h2>
         <MuiRadioButton />
+      </Stack>
+
+      <Stack direction='column' spacing={2}>
+        <h2>05. Checkbox</h2>
+        <MuiCheckbox />
       </Stack>
     </div>
   );
