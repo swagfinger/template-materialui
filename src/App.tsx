@@ -11,30 +11,42 @@ import { MuiMultiSelect } from "./components/MuiMultiSelect";
 function App() {
   return (
     <div className='App'>
-      <h1>MATERIAL UI</h1>
-      <h2>Installation</h2>
-      <p>documentation</p>
-      <CopyBlock
-        text={"https://mui.com/"}
-        theme={dracula}
-        language='html'
-        showLineNumbers={false}
-      />
-      <p>install Material UI</p>
-      <CopyBlock
-        text={"npm i @mui/material @emotion/react @emotion/styled"}
-        theme={dracula}
-        language='shell'
-        showLineNumbers={false}
-      />
-      <h2>01. Typography</h2>
-      <MuiTypography />
-      <h2>02. Buttons</h2>
-      <MuiButton />
-      <h2>03. TextField</h2>
-      <MuiTextField />
-      <h2>04. Select</h2>
       <Stack direction='column' spacing={2}>
+        <h1>MATERIAL UI</h1>
+        <h2>Installation</h2>
+        <p>documentation</p>
+        <CopyBlock
+          text={"https://mui.com/"}
+          theme={dracula}
+          language='html'
+          showLineNumbers={false}
+        />
+        <p>install Material UI</p>
+        <CopyBlock
+          text={"npm i @mui/material @emotion/react @emotion/styled"}
+          theme={dracula}
+          language='shell'
+          showLineNumbers={false}
+        />
+      </Stack>
+
+      <Stack direction='column' spacing={2}>
+        <h2>01. Typography</h2>
+        <MuiTypography />
+      </Stack>
+
+      <Stack direction='column' spacing={2}>
+        <h2>02. Buttons</h2>
+        <MuiButton />
+      </Stack>
+
+      <Stack direction='column' spacing={2}>
+        <h2>03. TextField</h2>
+        <MuiTextField />
+      </Stack>
+
+      <Stack direction='column' spacing={2}>
+        <h2>04. Select</h2>
         <Typography variant='h5'>Select</Typography>
         <MuiSelect />
         <Typography variant='h5'>MutliSelect</Typography>
