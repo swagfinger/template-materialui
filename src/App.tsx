@@ -14,6 +14,7 @@ import { MuiCard } from "./components/MuiCard";
 import { MuiLayout } from "./components/MuiLayout";
 import { MuiAccordion } from "./components/MuiAccordion";
 import { MuiTable } from "./components/MuiTable";
+import { MuiNavbar } from "./components/MuiNavbar";
 
 function App() {
   return (
@@ -94,6 +95,11 @@ function App() {
         <Stack direction='column' spacing={2}>
           <h2>11. Table</h2>
           <MuiTable />
+        </Stack>
+
+        <Stack direction='column' spacing={2}>
+          <h2>12. Navbar</h2>
+          <MuiNavbar />
         </Stack>
       </Stack>
     </div>

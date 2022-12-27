@@ -194,3 +194,19 @@ npm i @mui/icons-material
 ## Card
 
 ## Accordion
+
+## Table
+
+## Navbar
+
+- import Menu and MenuItem
+
+1. add id on button that will open the menu
+2. when this button is clicked , we set a state to save the html element which will become the anchor for the menu
+3. on the Menu component, set the 'ancholEl' property to the state in step 2.
+4. the anchorEl state is used to test if the menu should be open - open is true when button is clicked
+5. 'open' is set on Menu component's open sate
+6. 'open' is also used for accessibility in our component
+7. add onClose handler which resets anchorEl
+8. buttons can get a endIcon (eg. arrow down) to hint
+9. you can position where the menu will be anchored. menu positioning - mui.com/components/popover
