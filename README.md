@@ -192,3 +192,5 @@ npm i @mui/icons-material
 - Card component uses the paper component
 
 ## Card
+
+## Accordion
