@@ -240,3 +240,7 @@ npm i @mui/icons-material
 - LinearProgress
 - variant="determinate" (load percentage) / "indeterminate" (continuous)
 - color property
+
+## Loading Button
+
+- this is under lab - experimentation

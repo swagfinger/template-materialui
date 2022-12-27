@@ -20,6 +20,7 @@ import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
 import { MuiList } from "./components/MuiList";
 import { MuiDialog } from "./components/MuiDialog";
 import { MuiProgress } from "./components/MuiProgress";
+import { MuiLoadingButton } from "./components/MuiLoadingButton";
 
 function App() {
   return (
@@ -130,6 +131,11 @@ function App() {
         <Stack direction='column' spacing={2}>
           <h2>17. Progress</h2>
           <MuiProgress />
+        </Stack>
+
+        <Stack direction='column' spacing={2}>
+          <h2>18. Loading Button</h2>
+          <MuiLoadingButton />
         </Stack>
       </Stack>
     </div>
