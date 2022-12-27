@@ -18,6 +18,7 @@ import { MuiNavbar } from "./components/MuiNavbar";
 import { MuiLink } from "./components/MuiLink";
 import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
 import { MuiList } from "./components/MuiList";
+import { MuiDialog } from "./components/MuiDialog";
 
 function App() {
   return (
@@ -118,6 +119,11 @@ function App() {
         <Stack direction='column' spacing={2}>
           <h2>15. List</h2>
           <MuiList />
+        </Stack>
+
+        <Stack direction='column' spacing={2}>
+          <h2>16. Dialog (aka Modal)</h2>
+          <MuiDialog />
         </Stack>
       </Stack>
     </div>

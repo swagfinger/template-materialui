@@ -229,3 +229,8 @@ npm i @mui/icons-material
 - avatar list using ListItemAvatar
 - clickable button using ListItemButton
 - use Divider between ListItem components to separate items
+
+## Dialog
+
+- aka Modal
+-
