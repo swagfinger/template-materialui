@@ -244,3 +244,44 @@ npm i @mui/icons-material
 ## Loading Button
 
 - this is under lab - experimentation
+
+## Date and Time
+
+- npm i date-fns @date-io/date-fns
+- npm i @mui/x-date-pickers
+
+We currently support 4 different date-libraries:
+
+- date-fns adapted by @date-io/date-fns.
+- Day.js adapted by @date-io/dayjs.
+- Luxon adapted by @date-io/luxon.
+- Moment.js adapted by @date-io/moment.
+
+```tsx
+// date-fns
+import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
+// or for Day.js
+import { AdapterDayjs } from "@mui/x-date-pickers/AdapterDayjs";
+// or for Luxon
+import { AdapterLuxon } from "@mui/x-date-pickers/AdapterLuxon";
+// or for Moment.js
+import { AdapterMoment } from "@mui/x-date-pickers/AdapterMoment";
+```
+
+### Error
+
+- MUI: The LocalizationProvider component was moved from `@mui/lab` to `@mui/x-date-pickers`.
+
+```tsx
+import { LocalizationProvider } from "@mui/x-date-pickers";
+import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
+
+function App() {
+  return (
+    <LocalizationProvider dateAdapter={AdapterDateFns}>
+      ...
+    </LocalizationProvider>
+  )
+);
+
+```

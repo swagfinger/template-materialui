@@ -7,7 +7,6 @@ import {
   DialogContent,
   DialogContentText,
   DialogActions,
-  Stack,
 } from "@mui/material";
 
 export const MuiDialog = () => {
