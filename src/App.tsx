@@ -19,6 +19,7 @@ import { MuiLink } from "./components/MuiLink";
 import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
 import { MuiList } from "./components/MuiList";
 import { MuiDialog } from "./components/MuiDialog";
+import { MuiProgress } from "./components/MuiProgress";
 
 function App() {
   return (
@@ -124,6 +125,11 @@ function App() {
         <Stack direction='column' spacing={2}>
           <h2>16. Dialog (aka Modal)</h2>
           <MuiDialog />
+        </Stack>
+
+        <Stack direction='column' spacing={2}>
+          <h2>17. Progress</h2>
+          <MuiProgress />
         </Stack>
       </Stack>
     </div>

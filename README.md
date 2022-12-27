@@ -233,4 +233,10 @@ npm i @mui/icons-material
 ## Dialog
 
 - aka Modal
--
+
+## Progress Indicators
+
+- CircularProgress
+- LinearProgress
+- variant="determinate" (load percentage) / "indeterminate" (continuous)
+- color property
