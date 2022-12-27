@@ -15,6 +15,7 @@ import { MuiLayout } from "./components/MuiLayout";
 import { MuiAccordion } from "./components/MuiAccordion";
 import { MuiTable } from "./components/MuiTable";
 import { MuiNavbar } from "./components/MuiNavbar";
+import { MuiLink } from "./components/MuiLink";
 
 function App() {
   return (
@@ -100,6 +101,11 @@ function App() {
         <Stack direction='column' spacing={2}>
           <h2>12. Navbar</h2>
           <MuiNavbar />
+        </Stack>
+
+        <Stack direction='column' spacing={2}>
+          <h2>13. Link</h2>
+          <MuiLink />
         </Stack>
       </Stack>
     </div>

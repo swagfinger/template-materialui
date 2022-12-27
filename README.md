@@ -210,3 +210,9 @@ npm i @mui/icons-material
 7. add onClose handler which resets anchorEl
 8. buttons can get a endIcon (eg. arrow down) to hint
 9. you can position where the menu will be anchored. menu positioning - mui.com/components/popover
+
+## Link
+
+- link is primary color by default
+- can set underline of link to 'hover', "none"
+- wrap Link tag with Typography - variant prop, same as typography - default value is inherit
