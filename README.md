@@ -291,3 +291,8 @@ function App() {
 ```tsx
 import { DateRangePicker } from "@mui/x-date-pickers-pro/DateRangePicker";
 ```
+
+## Timeline
+
+- textposition: 'left', 'right', 'alternate'
+- import 'TimelineOppositeContent' to have text on both sides
