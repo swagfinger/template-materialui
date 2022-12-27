@@ -216,3 +216,9 @@ npm i @mui/icons-material
 - link is primary color by default
 - can set underline of link to 'hover', "none"
 - wrap Link tag with Typography - variant prop, same as typography - default value is inherit
+
+## Breadcrumbs
+
+- by default separator is '/', use separator='' to change separator
+- or use icon eg. import NavigateNextIcon then separator={<NavigateNextIcon fontSize="small">}
+- use maxItems={3}, itemsBeforeCollapse={2} and itemsAfterCollapse={2} to configure breadcrumbs
