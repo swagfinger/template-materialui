@@ -222,3 +222,10 @@ npm i @mui/icons-material
 - by default separator is '/', use separator='' to change separator
 - or use icon eg. import NavigateNextIcon then separator={<NavigateNextIcon fontSize="small">}
 - use maxItems={3}, itemsBeforeCollapse={2} and itemsAfterCollapse={2} to configure breadcrumbs
+
+## List
+
+- icon list using ListItemIcon
+- avatar list using ListItemAvatar
+- clickable button using ListItemButton
+- use Divider between ListItem components to separate items
