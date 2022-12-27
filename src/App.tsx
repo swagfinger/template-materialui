@@ -27,6 +27,8 @@ import { MuiDialog } from "./components/MuiDialog";
 import { MuiProgress } from "./components/MuiProgress";
 import { MuiLoadingButton } from "./components/MuiLoadingButton";
 import { MuiDate } from "./components/MuiDate";
+import { MuiDateRange } from "./components/MuiDateRange";
+import { MuiTimeline } from "./components/MuiTimeline";
 
 function App() {
   return (
@@ -148,6 +150,16 @@ function App() {
           <Stack direction='column' spacing={2}>
             <h2>19. DatePicker, TimePicker, DateTimePicker</h2>
             <MuiDate />
+          </Stack>
+
+          <Stack direction='column' spacing={2}>
+            <h2>20. DateRangePicker (license required)</h2>
+            <MuiDateRange />
+          </Stack>
+
+          <Stack direction='column' spacing={2}>
+            <h2>21. Timeline</h2>
+            <MuiTimeline />
           </Stack>
         </Stack>
       </div>

@@ -268,8 +268,6 @@ import { AdapterLuxon } from "@mui/x-date-pickers/AdapterLuxon";
 import { AdapterMoment } from "@mui/x-date-pickers/AdapterMoment";
 ```
 
-### Error
-
 - MUI: The LocalizationProvider component was moved from `@mui/lab` to `@mui/x-date-pickers`.
 
 ```tsx
@@ -284,4 +282,12 @@ function App() {
   )
 );
 
+```
+
+## DateRange
+
+- npm i @mui/x-date-pickers-pro
+
+```tsx
+import { DateRangePicker } from "@mui/x-date-pickers-pro/DateRangePicker";
 ```
