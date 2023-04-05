@@ -9,7 +9,7 @@ import {
   DialogActions,
 } from "@mui/material";
 
-export const MuiDialog = () => {
+export const MuiDialogExample = () => {
   const [open, setOpen] = useState(false);
 
   return (

@@ -7,28 +7,28 @@ import { AdapterDateFns } from "@mui/x-date-pickers/AdapterDateFns";
 import { CopyBlock, dracula } from "react-code-blocks";
 import { Typography, Stack } from "@mui/material";
 import "./App.css";
-import { MuiButton } from "./components/MuiButton";
-import { MuiTextField } from "./components/MuiTextfiled";
-import { MuiTypography } from "./components/MuiTypography";
-import { MuiSelect } from "./components/MuiSelect";
-import { MuiMultiSelect } from "./components/MuiMultiSelect";
-import { MuiRadioButton } from "./components/MuiRadioButton";
-import { MuiCheckbox } from "./components/MuiCheckbox";
-import { MuiSwitch } from "./components/MuiSwitch";
-import { MuiCard } from "./components/MuiCard";
-import { MuiLayout } from "./components/MuiLayout";
-import { MuiAccordion } from "./components/MuiAccordion";
-import { MuiTable } from "./components/MuiTable";
-import { MuiNavbar } from "./components/MuiNavbar";
-import { MuiLink } from "./components/MuiLink";
-import { MuiBreadcrumbs } from "./components/MuiBreadcrumbs";
-import { MuiList } from "./components/MuiList";
-import { MuiDialog } from "./components/MuiDialog";
-import { MuiProgress } from "./components/MuiProgress";
-import { MuiLoadingButton } from "./components/MuiLoadingButton";
-import { MuiDate } from "./components/MuiDate";
-import { MuiDateRange } from "./components/MuiDateRange";
-import { MuiTimeline } from "./components/MuiTimeline";
+import { MuiButtonExample } from "./components/MuiButtonExample";
+import { MuiTextFieldExample } from "./components/MuiTextfiledExample";
+import { MuiTypographyExample } from "./components/MuiTypographyExample";
+import { MuiSelectExample } from "./components/MuiSelectExample";
+import { MuiMultiSelectExample } from "./components/MuiMultiSelectExample";
+import { MuiRadioButtonExample } from "./components/MuiRadioButtonExample";
+import { MuiCheckboxExample } from "./components/MuiCheckboxExample";
+import { MuiSwitchExample } from "./components/MuiSwitchExample";
+import { MuiCardExample } from "./components/MuiCardExample";
+import { MuiLayoutExample } from "./components/MuiLayoutExample";
+import { MuiAccordionExample } from "./components/MuiAccordionExample";
+import { MuiTableExample } from "./components/MuiTableExample";
+import { MuiNavbarExample } from "./components/MuiNavbarExample";
+import { MuiLinkExample } from "./components/MuiLinkExample";
+import { MuiBreadcrumbsExample } from "./components/MuiBreadcrumbsExample";
+import { MuiListExample } from "./components/MuiListExample";
+import { MuiDialogExample } from "./components/MuiDialogExample";
+import { MuiProgressExample } from "./components/MuiProgressExample";
+import { MuiLoadingButtonExample } from "./components/MuiLoadingButtonExample";
+import { MuiDateExample } from "./components/MuiDateExample";
+import { MuiDateRangeExample } from "./components/MuiDateRangeExample";
+import { MuiTimelineExample } from "./components/MuiTimelineExample";
 
 function App() {
   return (
@@ -56,110 +56,110 @@ function App() {
 
           <Stack direction='column' spacing={2}>
             <h2>01. Typography</h2>
-            <MuiTypography />
+            <MuiTypographyExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>02. Buttons</h2>
-            <MuiButton />
+            <MuiButtonExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>03. TextField</h2>
-            <MuiTextField />
+            <MuiTextFieldExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>04. Select</h2>
             <Typography variant='h5'>Select</Typography>
-            <MuiSelect />
+            <MuiSelectExample />
             <Typography variant='h5'>MutliSelect</Typography>
-            <MuiMultiSelect />
+            <MuiMultiSelectExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>05. Radio Button</h2>
-            <MuiRadioButton />
+            <MuiRadioButtonExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>06. Checkbox</h2>
-            <MuiCheckbox />
+            <MuiCheckboxExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>07. Switch</h2>
-            <MuiSwitch />
+            <MuiSwitchExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>08. Card</h2>
-            <MuiCard />
+            <MuiCardExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>09. Layout</h2>
-            <MuiLayout />
+            <MuiLayoutExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>10. Accordion</h2>
-            <MuiAccordion />
+            <MuiAccordionExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>11. Table</h2>
-            <MuiTable />
+            <MuiTableExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>12. Navbar</h2>
-            <MuiNavbar />
+            <MuiNavbarExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>13. Link</h2>
-            <MuiLink />
+            <MuiLinkExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>14. Breadcrumbs</h2>
-            <MuiBreadcrumbs />
+            <MuiBreadcrumbsExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>15. List</h2>
-            <MuiList />
+            <MuiListExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>16. Dialog (aka Modal)</h2>
-            <MuiDialog />
+            <MuiDialogExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>17. Progress</h2>
-            <MuiProgress />
+            <MuiProgressExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>18. Loading Button</h2>
-            <MuiLoadingButton />
+            <MuiLoadingButtonExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>19. DatePicker, TimePicker, DateTimePicker</h2>
-            <MuiDate />
+            <MuiDateExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>20. DateRangePicker (license required)</h2>
-            <MuiDateRange />
+            <MuiDateRangeExample />
           </Stack>
 
           <Stack direction='column' spacing={2}>
             <h2>21. Timeline</h2>
-            <MuiTimeline />
+            <MuiTimelineExample />
           </Stack>
         </Stack>
       </div>

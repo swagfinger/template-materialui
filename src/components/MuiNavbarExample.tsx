@@ -12,7 +12,7 @@ import {
 import CatchingPokemonIcon from "@mui/icons-material/CatchingPokemon";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 
-export const MuiNavbar = () => {
+export const MuiNavbarExample = () => {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
 

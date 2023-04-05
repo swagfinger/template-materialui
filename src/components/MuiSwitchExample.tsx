@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 type MuiSwitchProps = {};
 
-export const MuiSwitch: React.FC<MuiSwitchProps> = () => {
+export const MuiSwitchExample: React.FC<MuiSwitchProps> = () => {
   const [checked, setChecked] = useState(false);
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
     setChecked(event.target.checked);

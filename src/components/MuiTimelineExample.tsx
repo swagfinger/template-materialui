@@ -9,7 +9,7 @@ import {
   TimelineOppositeContent,
 } from "@mui/lab";
 
-export const MuiTimeline = () => {
+export const MuiTimelineExample = () => {
   return (
     <Stack spacing={2}>
       <Timeline position='alternate'>

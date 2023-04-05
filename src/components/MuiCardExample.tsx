@@ -8,7 +8,7 @@ import {
   Button,
 } from "@mui/material";
 
-export const MuiCard = () => {
+export const MuiCardExample = () => {
   return (
     <Box width='300px'>
       <Card>

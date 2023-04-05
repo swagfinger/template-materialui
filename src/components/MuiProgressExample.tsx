@@ -1,6 +1,6 @@
 import { Stack, CircularProgress, LinearProgress } from "@mui/material";
 
-export const MuiProgress = () => {
+export const MuiProgressExample = () => {
   return (
     <Stack spacing={2}>
       <CircularProgress />

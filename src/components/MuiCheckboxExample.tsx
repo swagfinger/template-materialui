@@ -15,7 +15,7 @@ import BookmarkIcon from "@mui/icons-material/Bookmark";
 
 import React, { useState } from "react";
 
-export const MuiCheckbox = () => {
+export const MuiCheckboxExample = () => {
   console.log("--------------------------------");
   const [acceptTerms, setAcceptTerms] = useState(false);
   console.log("acceptTerms: ", acceptTerms);

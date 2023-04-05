@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 type MuiSelectProps = {};
 
-export const MuiMultiSelect: React.FC<MuiSelectProps> = () => {
+export const MuiMultiSelectExample: React.FC<MuiSelectProps> = () => {
   const [countries, setCountries] = useState<string[]>([]);
   console.log(countries);
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {

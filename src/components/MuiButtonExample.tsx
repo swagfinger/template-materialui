@@ -16,7 +16,7 @@ import FormatUnderlinedIcon from "@mui/icons-material/FormatUnderlined";
 
 type MuiButtonProps = {};
 
-export const MuiButton: React.FC<MuiButtonProps> = () => {
+export const MuiButtonExample: React.FC<MuiButtonProps> = () => {
   const [formats, setFormats] = useState<string[]>([]);
 
   console.log(formats);

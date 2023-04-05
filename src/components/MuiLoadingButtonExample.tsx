@@ -2,7 +2,7 @@ import { Stack, Typography } from "@mui/material";
 import { LoadingButton } from "@mui/lab";
 import SaveIcon from "@mui/icons-material/Save";
 
-export const MuiLoadingButton = () => {
+export const MuiLoadingButtonExample = () => {
   return (
     <>
       <Typography variant='h5'>Basic Loading Button</Typography>

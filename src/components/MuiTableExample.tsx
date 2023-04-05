@@ -8,7 +8,7 @@ import {
   Paper,
 } from "@mui/material";
 
-export const MuiTable = () => {
+export const MuiTableExample = () => {
   return (
     <TableContainer component={Paper} sx={{ maxHeight: "300px" }}>
       <Table aria-label='simple table' stickyHeader>

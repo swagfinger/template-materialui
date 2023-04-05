@@ -3,7 +3,7 @@ import NavigateNextIcon from "@mui/icons-material/NavigateNext";
 
 type MuiBreadcrumbsProps = {};
 
-export const MuiBreadcrumbs: React.FC<MuiBreadcrumbsProps> = () => {
+export const MuiBreadcrumbsExample: React.FC<MuiBreadcrumbsProps> = () => {
   return (
     <Box m={2}>
       <Breadcrumbs

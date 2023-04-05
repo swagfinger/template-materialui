@@ -1,6 +1,6 @@
 import { Box, Stack, Divider, Typography, Grid } from "@mui/material";
 
-export const MuiLayout = () => {
+export const MuiLayoutExample = () => {
   return (
     <>
       <Typography gutterBottom variant='h5' component='div'>

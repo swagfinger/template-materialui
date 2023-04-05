@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { Stack, TextField, InputAdornment } from "@mui/material";
-type MuiTextFieldProps = {};
 
-export const MuiTextField: React.FC<MuiTextFieldProps> = () => {
+
+export const MuiTextFieldExample = () => {
   const [value, setValue] = useState("");
 
   return (
@@ -51,4 +51,3 @@ export const MuiTextField: React.FC<MuiTextFieldProps> = () => {
   );
 };
 
-export default MuiTextField;

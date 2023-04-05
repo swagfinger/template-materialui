@@ -12,7 +12,7 @@ import React, { useState } from "react";
 
 type MuiRadioButtonProps = {};
 
-export const MuiRadioButton: React.FC<MuiRadioButtonProps> = () => {
+export const MuiRadioButtonExample: React.FC<MuiRadioButtonProps> = () => {
   const [value, setValue] = useState("");
 
   console.log("value: ", value);

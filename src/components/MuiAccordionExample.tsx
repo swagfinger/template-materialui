@@ -7,7 +7,7 @@ import {
 import ExpandMoreIcon from "@mui/icons-material/ExpandMore";
 import { useState } from "react";
 
-export const MuiAccordion = () => {
+export const MuiAccordionExample = () => {
   const [expanded, setExpanded] = useState<string | false>(false);
   const handleChange = (isExpanded: boolean, panel: string) => {
     setExpanded(isExpanded ? panel : false);

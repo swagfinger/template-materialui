@@ -12,7 +12,7 @@ import {
 } from "@mui/material";
 import MailIcon from "@mui/icons-material/Mail";
 
-export const MuiList = () => {
+export const MuiListExample = () => {
   return (
     <>
       <Typography variant='h5'>Basic List</Typography>

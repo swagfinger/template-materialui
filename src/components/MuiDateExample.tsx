@@ -4,7 +4,7 @@ import { TimePicker } from "@mui/x-date-pickers/TimePicker";
 import { DateTimePicker } from "@mui/x-date-pickers/DateTimePicker";
 import { useState } from "react";
 
-export const MuiDate = () => {
+export const MuiDateExample = () => {
   const [selectedDate, setSelectedDate] = useState<Date | null>(null);
   const [selectedTime, setSelectedTime] = useState<Date | null>(null);
   const [selectedDateTime, setSelectedDateTime] = useState<Date | null>(null);
